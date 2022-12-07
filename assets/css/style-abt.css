@@ -126,7 +126,6 @@ global styles
 html,
 body {
   background: #fff;
-  font-family: 'Poppins', sans-serif;
 }
 
 ::selection {
@@ -235,12 +234,11 @@ header
 }
 
 .sub-header .right-icons ul li a:hover {
-  color: #001277;
+  color: rgb(209, 209, 209);
 }
 
 .sub-header .left-content p em {
    font-style: normal;
-   color: #001277;
 }
 
 .background-header {
