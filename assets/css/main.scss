@@ -42,3 +42,164 @@
         color: #fff;
     }
 }
+
+.courses_item {
+    background-color: #fff;
+    position: relative;
+
+    .view_details_button {
+        position: absolute;
+        top: .5em;
+        right: .5em;
+        z-index: 1;
+        border: none;
+        color: #000064;
+        font-weight: 500;
+        font-size: 1rem;
+        letter-spacing: .8px;
+        word-spacing: 1px;
+        margin-top: 1em;
+        padding: .5em 1em;
+        background-color: #DFDFEC;
+        transition: all .25s ease;
+        text-decoration: none;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #000064;
+            color: #fff;
+        }
+    }
+}
+
+.microsoft {
+    .main-banner {
+        height: 50vh;
+
+        .video-overlay {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            h4 {
+                margin-bottom: 20px !important;
+                font-size: 3rem !important;
+                font-weight: 500 !important;
+                color: #fff !important;
+                letter-spacing: 1px !important;
+            }
+        }
+    }
+
+    .cource_section {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin-top: 5em;
+
+        .main_image {
+            width: 400px;
+            max-width: 98%;
+            margin: .5em;
+        }
+
+        .course_detail {
+            flex: 1;
+            margin: .5em;
+
+            h1 {
+                font-size: 3rem;
+                color: rgba(0, 0, 0, 0.8);
+            }
+
+            .price {
+                margin-top: 1.5em;
+
+                p {
+                    font-size: 1rem;
+                    color: rgba(0, 0, 0, 0.6);
+                    margin-bottom: .3em;
+
+                    span {
+                        font-weight: 600;
+                        font-size: 1.2rem;
+                        margin-right: .5em;
+                    }
+                }
+            }
+
+            .breakdown {
+                margin-top: 1.5em;
+                margin-bottom: 2em;
+
+                .list_item {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    margin-bottom: 1em;
+
+                    p {
+                        font-size: 1rem;
+                        color: rgba(0, 0, 0, 0.6);
+                    }
+
+                    div {
+                        width: 20px;
+                        height: 20px;
+                        background-color: #000064;
+                        margin-right: 1em;
+                        border-radius: 50%;
+                        position: relative;
+
+                        &::after {
+                            content: '';
+                            position: absolute;
+                            z-index: 2;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            background-color: #fff;
+                            width: 70%;
+                            height: 70%;
+                            border-radius: 50%;
+                        }
+
+                        &::before {
+                            content: '';
+                            position: absolute;
+                            z-index: 3;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            background-color: #000064;
+                            width: 40%;
+                            height: 40%;
+                            border-radius: 50%;
+                        }
+                    }
+                }
+            }
+
+            .apply_now_link {
+                border: none;
+                color: #000064;
+                font-weight: 500;
+                font-size: 1rem;
+                letter-spacing: .8px;
+                word-spacing: 1px;
+                margin-top: 1em;
+                padding: .5em 1em;
+                background-color: #DFDFEC;
+                transition: all .25s ease;
+                text-decoration: none;
+                cursor: pointer;
+
+                &:hover {
+                    background-color: #000064;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
