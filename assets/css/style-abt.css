@@ -1433,26 +1433,21 @@ section.our-facts h2 {
   text-align: center;
   margin-left: 30px;
   margin-top: -60px;
-  background-image: url(../images/video-item-bg1.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  /* border-radius: 20px; */
 }
 
-.video img {
-  padding: 170px 0px;
-  max-width: 66px;
+.video .why-video {
+  width: 100%;
 }
 
 section.our-facts .video {
   text-align: center;
   margin-left: 70px;
-  background-image: url(../images/video-item-bg.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  /* border-radius: 20px; */
 }
 
 section.our-facts .video img {
